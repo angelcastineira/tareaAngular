@@ -1,0 +1,24 @@
+/* Estilos para el campo de entrada */
+input {
+  width: 100%; /* Asegura que el campo de entrada ocupe todo el ancho disponible */
+  padding: 10px; /* Espaciado interno para mejorar la legibilidad */
+  border: 1px solid #ccc; /* Borde sutil para definir el campo de entrada */
+  border-radius: 4px; /* Bordes redondeados para una apariencia más suave */
+  font-size: 1rem; /* Tamaño de fuente adecuado para la entrada de texto */
+  color: #333; /* Color de texto oscuro para una mejor legibilidad */
+  background-color: #f9f9f9; /* Fondo claro para resaltar el texto */
+  transition: border-color 0.3s ease; /* Transición suave para el cambio de color del borde */
+}
+
+input:focus {
+  border-color: #3f51b5; /* Cambia el color del borde al enfocarse para indicar interacción */
+  outline: none; /* Elimina el contorno predeterminado para una apariencia más limpia */
+}
+
+/* Estilos para el párrafo */
+p {
+  font-size: 1.2rem; /* Ajusta el tamaño de la fuente según sea necesario */
+  color: #3f51b5; /* Cambia el color del texto */
+  text-align: center; /* Centrar el texto */
+  margin-bottom: 20px; /* Espaciado entre el párrafo y el siguiente elemento */
+}

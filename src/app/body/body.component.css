@@ -1,0 +1,25 @@
+/* styles.css */
+html, body {
+  background-color: #fafafa; /* Cambia este valor al color de fondo que prefieras */
+}
+
+/* body.component.css */
+.container {
+  display: flex;
+  flex-direction: column; /* Cambia la dirección de los elementos a columna */
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta la altura al 100% de la ventana del navegador */
+}
+
+/* body.component.css */
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
